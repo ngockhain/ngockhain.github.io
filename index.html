@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <label>Please upLoad a file csv</label>
+    <input type="file" id="fileinput" />
+
+    <label>Please upload a file json</label>
+    <input type="file" id="jsoninput" />
+
+    <div class="form-group">
+        <span>Number of questions: 20</span>
+    </div>
+    
+    <div id="app" class="container" v-if="csv_contents.length != 0">
+        <div style="width: 500px; margin-left: 300px">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front round">
+                        <span>{{idx}}</span>
+                        <h1><center>{{csv_contents[idx].漢字}}</center></h1>
+                        
+                        <div class="row">
+                            <div class="col-3 d-flex align-content-center flex-wrap" style="justify-content: center;"><button v-on:click="idx = idx - 1 <= 0? 0:idx-1" class="btn"><</button></div>
+                            <div class="col-6"><img v-on:click="card_click" :src="csv_contents[idx].image" height="300px" width="100%"/></div>
+                            <div class="col-3 d-flex align-content-center flex-wrap" style="justify-content: center;"><button v-on:click="right_icon_click" class="btn">></button></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <button v-on:click="remember_click" class="btn btn-primary">覚えました</button>
+                            </div>
+                            <div class="col-6">
+                                <button v-on:click="forget_click" class="btn btn-danger">忘れちゃった</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-card-back " v-on:click="card_click">
+                        <span>{{idx}}</span>
+                        <h1><center>{{csv_contents[idx].漢字}}</center></h1>
+                        <div class="row">
+                            <div class="col-3"><p></p></div>
+                            <div class="col-6"><img :src="csv_contents[idx].image" height="auto" class="img-custom" /></div>
+                            <div class="col-3 text-right"><p></p></div>
+                        </div>
+                        <p class="mt-4">読み方: {{csv_contents[idx].読み方}}</p>
+                        <p>漢字部: {{csv_contents[idx].漢字部}}</p>
+                        <p>意味: {{csv_contents[idx].意味}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="vuejs.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="script.js"></script>
+<script type="text/javascript">
+
+    vm = new Vue({
+        el: '#app',
+        data: function() {
+            return {
+                csv_contents: [],
+                weight_data: [],
+                raw_content: [],
+                idx: 0,
+                number_question: 20,
+            }
+        },
+        mount: function() {
+
+        },
+
+        methods: {
+            card_click: function() {
+                document.getElementsByClassName('flip-card')[0].classList.toggle('hover')
+            },
+            remember: function() {
+                idx = this.idx;
+                this.csv_contents[idx].point += 3;
+            },
+            forget: function() {
+                idx = this.idx
+                this.csv_contents[idx].point -= 5;
+            },
+            remember_click: function() {
+                idx = this.idx
+                contents = this.csv_contents
+                
+                yomikata = contents[idx].読み方
+                kanjibu = contents[idx].漢字部
+                imi = contents[idx].意味
+                kanji = contents[idx].漢字
+
+                Swal.fire({
+                    title: '本当に覚えましたか?',
+                    html: '<h3><i>漢字: ' + kanji + '</i></h3>'+'読み方: '+ yomikata + '<br>漢字部:' + kanjibu + '<br>意味: ' + imi,
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonText: '覚えた',
+                    cancelButtonText: '忘れた'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        Swal.fire('覚えた!、＋３ポイント', '', 'success')
+                        this.remember();
+                        this.right_icon_click();
+                    }
+                })
+            },
+            forget_click: function() {
+                this.forget();
+                this.right_icon_click();
+                Swal.fire({
+                    icon: 'error',
+                    title: '忘れた, -５ポイント',
+                    showConfirmButton: false,
+                    timer: 2000
+                })
+            },
+            right_icon_click: function() {
+                this.idx += 1;
+                if(this.idx >= this.csv_contents.length || this.idx >= this.number_question)
+                {
+                    this.idx -= 1;
+                    //save to csv
+                    json_string = JSON.stringify(this.csv_contents);
+                    var link = document.createElement('a');
+                    link.download = 'data.json';
+                    var blob = new Blob([json_string], {type: 'text/plain'});
+                    link.href = window.URL.createObjectURL(blob);
+                    link.click();
+                }
+            }
+        }
+    });
+
+</script>
+</body>
+</html>

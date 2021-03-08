@@ -1,0 +1,155 @@
+区分	漢字	読み方	漢字部	意味	image	point
+1	禁止	きんし	Cấm, Chỉ	Cấm đoán, nghiêm cấm	イメージ/漢字/禁止	0
+2	禁煙	きんえん	Cấm, Yên	Cấm hút thuốc	イメージ/漢字/禁煙	0
+3	煙	けむり	Yên	Khói	イメージ/漢字/煙	0
+4	安静な	あんせいな	An, Tĩnh	Yên tĩnh, nghỉ ngơi	イメージ/漢字/安静な	0
+5	静かな	しずかな	Tĩnh	Yên tĩnh, vắng lặng, Êm đềm	イメージ/漢字/静かな	0
+6	静まる	しずまる	Tĩnh	Lắng xuống, yên tĩnh xuống	イメージ/漢字/静まる	0
+7	危機	きき	Nguy, Cơ	Khủng hoảng, Nguy cơ	イメージ/漢字/危機	0
+8	危ない	あぶない	Nguy	Nguy hiểm, Không đáng tin	イメージ/漢字/危ない	0
+9	危うい	あやうい	Nguy	Suýt chết, nguy hiểm	イメージ/漢字/危うい	0
+10	危険な	きけんな	Nguy, Hiểm	Nguy Hiểm, Gập ghềnh, Hiểm nghèo	イメージ/漢字/危険な	0
+11	険しい	けわしい	Hiểm	Hiểm trở, Nghiêm khắc	イメージ/漢字/険しい	0
+12	関心	かんしん	Quan, Tâm	Sự quan tâm, Tâm tư.	イメージ/漢字/関心	0
+13	関わる	かかわる	Quan	Liên quan, về	イメージ/漢字/関わる	0
+14	～に関する	～にかんする	Quan	Có quan hệ, có liên quan tới	イメージ/漢字/～に関する	0
+15	関係	かんけい	Quan, Hệ	Liên quan, sự quan hệ	イメージ/漢字/関係	0
+16	係	かかり	Hệ	Người phụ trách, người chịu trách nhiệm	イメージ/漢字/係	0
+17	係員	かかりいん	Hệ, Viên	Người phụ trách, người chịu trách nhiệm	イメージ/漢字/係員	0
+18	落ちる	おちる	Lạc	Ngã, Rơi rớt, Rụng, Tuột xuống	イメージ/漢字/落ちる	0
+19	転落	てんらく	Chuyển, Lạc	Giáng chức, Rớt xuống	イメージ/漢字/転落	0
+20	落第	らくだい	Lạc, Đệ	Sự thi trượt	イメージ/漢字/落第	0
+21	落とす	おとす	Lạc	Bỏ rơi, Đánh rơi, Cưa đổ (gái)	イメージ/漢字/落とす	0
+22	石	いし	Thạch	Hòn đá	イメージ/漢字/石	0
+23	落石	らくせき	Lạc, Thạch	Sự rơi đá từ trên núi xuống	イメージ/漢字/落石	0
+24	磁石	じしゃく	Từ, Thạch	Nam châm, Quặng sắt từ	イメージ/漢字/磁石	0
+25	飛ぶ	とぶ	Phi	Bay	イメージ/漢字/飛ぶ	0
+26	飛行場	ひこうじょう	Phi, Hành, Trường	Phi trường, sân bay	イメージ/漢字/飛行場	0
+27	飛び出す	とびだす	Phi, Xuất	Bay ra, Từ chức	イメージ/漢字/飛び出す	0
+28	駐車場	ちゅうしゃじょう	Trú, Xa, Trường	Bãi đổ xe	イメージ/漢字/駐車場	0
+29	駐車	ちゅうしゃ	Trú, Xa	Đổ xe	イメージ/漢字/駐車	0
+30	捨てる	すてる	Xá	Vứt, ném, bỏ, từ bỏ	イメージ/漢字/捨てる	0
+31	四捨五入	ししゃごにゅう	Tứ, Xá, Ngũ, Nhập	Làm tròn số	イメージ/漢字/四捨五入	0
+32	遊ぶ	あそぶ	Du	Vui chơi, nô đùa	イメージ/漢字/遊ぶ	0
+33	遊泳	ゆうえい	Du, Vịnh	Bơi lội	イメージ/漢字/遊泳	0
+34	泳ぐ	およぐ	Vịnh	Bơi	イメージ/漢字/泳ぐ	0
+35	水泳	すいえい	Thủy, Vịnh	Việc bơi	イメージ/漢字/水泳	0
+36	署名	しょめい	Thự, Danh	Chữ ký	イメージ/漢字/署名	0
+37	部署	ぶしょ	Bộ, Thự	Phòng ban trong công ty	イメージ/漢字/部署	0
+38	消防署	しょうぼうしょ	Tiêu, Phòng, Thự 	Cục PCCC	イメージ/漢字/消防署	0
+39	税務署	ぜいむしょ	Thuế, Vụ, Thự	Chi cục thuế	イメージ/漢字/税務署	0
+40	依頼	いらい	Ỷ, Lại	Nhờ vào người khác	イメージ/漢字/依頼	0
+41	信頼	しんらい	Tín, Lại	Người đáng tin cậy	イメージ/漢字/信頼	0
+42	頼む	たのむ	Tín	Nhờ vào	イメージ/漢字/頼む	0
+43	頼る	たよる	Tín	Nhờ cậy	イメージ/漢字/頼る	0
+44	頼もしい	たのもしい	Tín	Đáng tin cậy	イメージ/漢字/頼もしい	0
+45	頼りない	たよりない	Tín	Không đáng tin	イメージ/漢字/頼りない	0
+46	都道府県	とどうふけん	Bộ, Đạo, Phủ, Tỉnh	Các tỉnh thành phố của Nhật	イメージ/漢字/都道府県	0
+47	京都府	きょうとぶ		Phủ Tokyo	イメージ/漢字/京都府	0
+48	到着	とうちゃく		Đến, đến nơi	イメージ/漢字/到着	0
+49	希望	きぼう	Bố, Vọng	Nguyện vọng	イメージ/漢字/希望	0
+50	失望	しつぼう	Thất, Vọng	Thất vọng	イメージ/漢字/失望	0
+51	望む	のぞむ	Vọng	Mong muốn	イメージ/漢字/望む	0
+52	望遠鏡	ぼうえんきょう	Vọng, Viễn, Kính	Kính viễn vọng	イメージ/漢字/望遠鏡	0
+53	申請	しんせい	Thân, Thỉnh	Sự thỉnh cầu	イメージ/漢字/申請	0
+54	申す	もうす	Thân	Nói là, được gọi là	イメージ/漢字/申す	0
+55	申し込み	もうしこみ	Thân, Vu	Đăng ký	イメージ/漢字/申し込み	0
+56	申し上げる	もうしあげる	Thân, Thượng	Phát biểu, khiêm nhường ngữ của 言います	イメージ/漢字/申し上げる	0
+57	姓	せい	Tín	Họ 	イメージ/漢字/姓	0
+58	姓名	せいめい	Tín, Danh	Họ và tên	イメージ/漢字/姓名	0
+59	年齢	ねんれい	Niên, Linh	Tuổi tác	イメージ/漢字/年齢	0
+60	高齢	こうれい	Cao, Linh	Cao tuổi	イメージ/漢字/高齢	0
+61	男性	だんせい	Nam, Tính	Phái Nam	イメージ/漢字/男性	0
+62	性別	せいべつ	Tính, Biệt	Phân biệt giới tính	イメージ/漢字/性別	0
+63	安全性	あんぜんせい	An, Toàn, Tính	Có tính an toàn	イメージ/漢字/安全性	0
+64	女性	じょせい	Nữ, Tính	Phái nữ	イメージ/漢字/女性	0
+65	性質	せいしつ	Tính, Chất	Tính chất	イメージ/漢字/性質	0
+66	可能性	かのうせい	Khả, Năng, Tính	Có khả năng	イメージ/漢字/可能性	0
+67	お宅	おたく	Trạch	Nhà người khác	イメージ/漢字/お宅	0
+68	自宅	じたく	Tự, Trạch	Nhà của mình	イメージ/漢字/自宅	0
+69	住宅	じゅうたく	Trú, Trạch	Nhà ở	イメージ/漢字/住宅	0
+70	帰宅	きたく	Quy, Trạch	Về nhà	イメージ/漢字/帰宅	0
+71	勤務	きんむ	Cần, Vụ	Công việc	イメージ/漢字/勤務	0
+72	通勤	つうきん	Thông, Cần	Đi làm (đi đi, về về)	イメージ/漢字/通勤	0
+73	出勤	しゅっきん	Xuất, Cần	Đi làm	イメージ/漢字/出勤	0
+74	勤める	つとめる	Cần	Đi làm	イメージ/漢字/勤める	0
+75	全部	ぜんぶ	Toàn, Bộ	Toàn bộ	イメージ/漢字/全部	0
+76	部長	ぶちょう	Bộ, Trưởng	Trưởng phòng	イメージ/漢字/部長	0
+77	O部屋	Oへや	Bộ, Ốc	Căn phòng	イメージ/漢字/O部屋	0
+78	部分	ぶぶん	Bộ, Phận	Bộ phận	イメージ/漢字/部分	0
+79	学部	がくぶ	Học, Bộ	Khoa (ngành)	イメージ/漢字/学部	0
+80	喫茶店	きっさてん	Khiết, Trà, Điếm	Quán cf, trà. Tiệm giải khát	イメージ/漢字/喫茶店	0
+81	喫煙所	きつえんじょ	Khiết, Yên, Sở	Khu vực hút thuốc	イメージ/漢字/喫煙所	0
+82	非～	ひ～	Phi	Không 	イメージ/漢字/非～	0
+83	非常に	ひじょうに	Phi, Thường	Khẩn cấp, cấp bách, rất	イメージ/漢字/非常に	0
+84	御～	ご～・お～	Ngự	Kanji của kính ngữ	イメージ/漢字/御～	0
+85	御中	おんちゅう	Ngự, Trung	Kính gửi	イメージ/漢字/御中	0
+86	御手洗い	おてあらい	Ngự, Thủ, Tẩy	Nhà vệ sinh	イメージ/漢字/御手洗い	0
+87	常に	つねに	Thường	Thường thường, いつも・よく	イメージ/漢字/常に	0
+88	日常	にちじょう	Nhật, Thường	Thường ngày. Ngày bình thường	イメージ/漢字/日常	0
+89	常識	じょうしき	Thường, Thức	Kiến thức thông thường	イメージ/漢字/常識	0
+90	受ける	うける	Thụ	Tiếp thu. Tham gia	イメージ/漢字/受ける	0
+91	受験	じゅけん	Thụ, Nghiệm	Dự thi	イメージ/漢字/受験	0
+92	～付き	～つき	Phó	Đính kèm	イメージ/漢字/～付き	0
+93	付近	ふきん	Phó, Cận	Gần, lân cận	イメージ/漢字/付近	0
+94	受付	うけつけ	Thụ, Phó	Lễ tân	イメージ/漢字/受付	0
+95	日付	ひづけ	Nhật, Phó	Ngày tháng	イメージ/漢字/日付	0
+96	案	あん	Án	Phương án, đề xuất	イメージ/漢字/案	0
+97	案内	あんない	Án, Nội	Hướng dẫn	イメージ/漢字/案内	0
+98	～内	～ない	Nội	Bên trong	イメージ/漢字/～内	0
+99	内	うち	Nội	Nhà 	イメージ/漢字/内	0
+100	以内	いない	Dĩ, Nội	Trong vòng, trong khoảng	イメージ/漢字/以内	0
+101	社内	しゃない	Xã, Nội	Nội bộ công ty	イメージ/漢字/社内	0
+102	会議室	かいぎしつ	Hội, Nghị, Thất	Phòng họp	イメージ/漢字/会議室	0
+103	議論	ぎろん	Nghị, Luận	Sự tranh luận	イメージ/漢字/議論	0
+104	不思議な	ふしぎな	Bất, Tư, Nghị	Bí ẩn	イメージ/漢字/不思議な	0
+105	議員	ぎいん	Nghị, Viên	Đại biểu quốc hội, nghị sĩ	イメージ/漢字/議員	0
+106	～化	～か	~Hóa	Chuyển hóa	イメージ/漢字/～化	0
+107	文化	ぶんか	Văn, Hóa	Văn hóa	イメージ/漢字/文化	0
+108	化学	かがく	Hóa, Học	Hóa học	イメージ/漢字/化学	0
+109	化粧室	けしょうしつ	Hóa, Trang, Thất	Phòng trang điểm, phòng vệ sinh, phòng rửa mặt	イメージ/漢字/化粧室	0
+110	～階	～かい	~Giai	Tầng	イメージ/漢字/～階	0
+111	階段	かいだん	Giai Đoạn	Cầu thang	イメージ/漢字/階段	0
+112	段階	だんかい	Đoạn Giai	Giai đoạn	イメージ/漢字/段階	0
+113	段	だん	Đoạn	Bước, bậc thang	イメージ/漢字/段	0
+114	一段と	いちだんと	Nhất, Đoạn	Hơn rất nhiều	イメージ/漢字/一段と	0
+115	手段	しゅだん	Thủ, Đoạn	Phương tiện, cách thức, thủ đoạn	イメージ/漢字/手段	0
+116	石段	いしだん	Thạch, Đoạn	Cầu thang đá	イメージ/漢字/石段	0
+117	営業	えいぎょう	Doanh, Nghiệp	Doanh nghiệp, sự kinh doanh	イメージ/漢字/営業	0
+118	放す	はなす	Phóng	Buông tay, buông thả	イメージ/漢字/放す	0
+119	放送	ほうそう	Phóng, Tống	Sự phát thanh, sự phát sóng	イメージ/漢字/放送	0
+120	開放厳禁	かいほうげんきん	Khai, Phóng, Nghiêm, Cấm	Cấm để cửa mở (ra vào phải đóng cửa)	イメージ/漢字/開放厳禁	0
+121	開放	かいほう	Khai, Phóng	Sự mở cửa, cởi mở, sự tự do hóa	イメージ/漢字/開放	0
+122	押す	おす	Áp	Ấn, đẩy, bấm, đóng (dấu).	イメージ/漢字/押す	0
+123	押さえる	おさえる	Áp	Giữ, nắm bắt	イメージ/漢字/押さえる	0
+124	押し入れ	おしいれ	Áp, Nhập	Tủ âm tường	イメージ/漢字/押し入れ	0
+125	準備	じゅんび	Chuẩn, Bị	Chuẩn bị	イメージ/漢字/準備	0
+126	水準	すいじゅん	Thủy, Chuẩn	Cấp độ, trình độ. Mực nước	イメージ/漢字/水準	0
+127	準決勝	じゅんけっしょう	Chuẩn, Quyết, Thắng	Trận bán kết	イメージ/漢字/準決勝	0
+128	備える	そなえる	Bị	Chuẩn bị	イメージ/漢字/備える	0
+129	備品	びひん	Bị, Phẩm	Trang thiết bị	イメージ/漢字/備品	0
+130	備え付け	そなえつけ	Bị, Phó	Trang bị sẵn	イメージ/漢字/備え付け	0
+131	定員	ていいん	Định, Viên	Sức chứa. Số người quy định	イメージ/漢字/定員	0
+132	定食	ていしょく	Định, Thực	Suất cơm	イメージ/漢字/定食	0
+133	定休日	ていきゅうび	Định, Hưu, Nhật	Ngày nghỉ thường kỳ	イメージ/漢字/定休日	0
+134	定規	じょうぎ	Định, Quy	Thước đo	イメージ/漢字/定規	0
+135	流す	ながす	Lưu	Làm chảy đi. Lan truyền tin đồn.	イメージ/漢字/流す	0
+136	流れる	ながれる	Lưu	Chảy, trôi đi.	イメージ/漢字/流れる	0
+137	流行	りゅうこう	Lưu, Hành	Lưu hành. Lây lan (bệnh dịch)	イメージ/漢字/流行	0
+138	清い	きよい	Thanh	Trong sạch, trong trắng	イメージ/漢字/清い	0
+139	清書	せいしょ	Thanh, Thư	Bản chính thức	イメージ/漢字/清書	0
+140	清流	せいりゅう	Thanh, Lưu	Dòng suối sạch	イメージ/漢字/清流	0
+141	清い流れ	きよいながれ	Thanh, Lưu	Dòng suối sạch	イメージ/漢字/清い流れ	0
+142	掃く	はく	Tảo	Quét	イメージ/漢字/掃く	0
+143	清掃	せいそう	Thanh, Tảo	Sự dọn dẹp	イメージ/漢字/清掃	0
+144	閉まる	しまる	Bế	Bị đóng	イメージ/漢字/閉まる	0
+145	閉める	しめる	Bế	Đóng, cài (then cửa)	イメージ/漢字/閉める	0
+146	閉会	へいかい	Bế, Hội	Bế mạc hội nghị	イメージ/漢字/閉会	0
+147	閉店	へいてん	Bế, Điếm	Sự đóng cửa hàng	イメージ/漢字/閉店	0
+148	閉じる	とじる	Bế	Nhắm (mắt)	イメージ/漢字/閉じる	0
+149	点	てん	Điểm	Điểm	イメージ/漢字/点	0
+150	～点	～てん	Điểm	Điểm …	イメージ/漢字/～点	0
+151	欠点	けってん	Khiếm, Điểm	Khuyết điểm, điểm thiếu sót	イメージ/漢字/欠点	0
+152	点検	てんけん	Điểm, Kiểm	Kiểm điểm, sự kiểm tra	イメージ/漢字/点検	0
+153	検問	けんもん	Kiểm, Vấn	Sự kiểm tra	イメージ/漢字/検問	0
+154	準急	じゅんきゅう	Chuẩn, Cấp	Tàu tốc hành thường	イメージ/漢字/準急  0
