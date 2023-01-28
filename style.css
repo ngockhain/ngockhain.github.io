@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   color: rgba(0, 0, 0, 0.653);
-  background-image: linear-gradient(120deg, #86c0a0 0%, #4e966f 100%);
+  background-image: linear-gradient(120deg,#299675 0%, #008177 100%);
   text-shadow: 0 .2px .3px rgba(0, 0, 0, 0.353);
   background-size: cover;
 }
